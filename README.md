@@ -32,6 +32,6 @@ Este proyecto es una API, desarrollada en **.NET Core 8.0** con una arquitectura
 
 ## Funcionamiento
 - Antes de ejecutar el proyecto, configurar la conexión a la base de datos "SQLConnection" en appsettings.json
-- Al ejecutar la aplicación se ejecuta la migracion "InitialTables" la cual crea la base de datos con sus 
+- Al ejecutar la aplicación se ejecuta la migracion "TablasIniciales" la cual crea la base de datos con sus 
   respectivas tablas.
 - También se crean datos de ejemplos en las tablas Jugadores y Batallas
