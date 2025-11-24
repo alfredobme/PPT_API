@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{946DA10D-81DC-41CC-8D10-24EADC0C9DDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{63DBAFE1-0910-424F-AF51-AE8AB7DBD02A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{FED30395-B0D3-4244-A9A6-BB34E75DF74D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{31DAE5A1-56A2-4DCE-99AA-A8223FB346D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPT.Api", "PPT.Api\PPT.Api.csproj", "{FD863FEF-2386-433B-8666-8A889FA8F488}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPT.Application", "PPT.Application\PPT.Application.csproj", "{10332A5B-57A5-494F-964B-4AA8E96C706C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPT.Domain", "PPT.Domain\PPT.Domain.csproj", "{AC375CBF-87AA-43CC-A49F-E07752871E20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPT.Infrastructure", "PPT.Infrastructure\PPT.Infrastructure.csproj", "{121A5240-AFC5-4107-AC72-4E073784F1EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD863FEF-2386-433B-8666-8A889FA8F488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD863FEF-2386-433B-8666-8A889FA8F488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD863FEF-2386-433B-8666-8A889FA8F488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD863FEF-2386-433B-8666-8A889FA8F488}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10332A5B-57A5-494F-964B-4AA8E96C706C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10332A5B-57A5-494F-964B-4AA8E96C706C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10332A5B-57A5-494F-964B-4AA8E96C706C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10332A5B-57A5-494F-964B-4AA8E96C706C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC375CBF-87AA-43CC-A49F-E07752871E20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC375CBF-87AA-43CC-A49F-E07752871E20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC375CBF-87AA-43CC-A49F-E07752871E20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC375CBF-87AA-43CC-A49F-E07752871E20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{121A5240-AFC5-4107-AC72-4E073784F1EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{121A5240-AFC5-4107-AC72-4E073784F1EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{121A5240-AFC5-4107-AC72-4E073784F1EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{121A5240-AFC5-4107-AC72-4E073784F1EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FD863FEF-2386-433B-8666-8A889FA8F488} = {946DA10D-81DC-41CC-8D10-24EADC0C9DDF}
+		{10332A5B-57A5-494F-964B-4AA8E96C706C} = {63DBAFE1-0910-424F-AF51-AE8AB7DBD02A}
+		{AC375CBF-87AA-43CC-A49F-E07752871E20} = {FED30395-B0D3-4244-A9A6-BB34E75DF74D}
+		{121A5240-AFC5-4107-AC72-4E073784F1EE} = {31DAE5A1-56A2-4DCE-99AA-A8223FB346D7}
+	EndGlobalSection
+EndGlobal
